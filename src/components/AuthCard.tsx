@@ -387,7 +387,7 @@ export function AuthCard({ onAuthSuccess, onNavigateHome, initialMode = 'signup'
                       type="text"
                       value={fullName}
                       onChange={(e) => setFullName(e.target.value)}
-                      placeholder="e.g. Ranjith Kumar"
+                      placeholder="e.g. Nagesh Kumar"
                       className={`w-full pl-10 pr-4 py-2 text-sm bg-slate-50/50 border rounded-xl focus:outline-hidden focus:ring-2 focus:bg-white transition-all ${
                         errors.fullName
                           ? 'border-amber-400 focus:ring-amber-200'
@@ -414,7 +414,7 @@ export function AuthCard({ onAuthSuccess, onNavigateHome, initialMode = 'signup'
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="ranjith@example.com"
+                      placeholder="nagesh@example.com"
                       className={`w-full pl-10 pr-4 py-2 text-sm bg-slate-50/50 border rounded-xl focus:outline-hidden focus:ring-2 focus:bg-white transition-all ${
                         errors.email
                           ? 'border-amber-400 focus:ring-amber-200'

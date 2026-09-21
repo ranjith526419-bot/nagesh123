@@ -33,12 +33,12 @@ export function Hero({ onNavigateToAuth, user }: HeroProps) {
             Key problems farmers face — <span className="text-[#C1610B] font-semibold">solved by AI</span>
           </p>
 
-          {/* Small details line requested: Name: Ranjith, Class: B.Tech IT - B, Reg No: 25108090 */}
+          {/* Small details line requested: Name: Nagesh, Class: B.Tech IT - B, Reg No: 25108073 */}
           <div id="student-details-badge" className="inline-flex flex-wrap items-center justify-center gap-2 sm:gap-4 px-5 py-2.5 rounded-xl bg-white border border-slate-200/80 shadow-sm text-xs sm:text-sm text-slate-700 mb-6">
             <div className="flex items-center gap-1.5 font-medium">
               <User className="w-4 h-4 text-[#2C5F2D]" />
               <span className="text-slate-500">Name:</span>
-              <span id="student-name" className="font-bold text-[#2C5F2D]">Ranjith</span>
+              <span id="student-name" className="font-bold text-[#2C5F2D]">Nagesh</span>
             </div>
 
             <span className="hidden sm:inline text-slate-300">|</span>
@@ -54,7 +54,7 @@ export function Hero({ onNavigateToAuth, user }: HeroProps) {
             <div className="flex items-center gap-1.5 font-medium">
               <Hash className="w-4 h-4 text-[#C1610B]" />
               <span className="text-slate-500">Reg No:</span>
-              <span id="student-regno" className="font-mono font-bold text-[#C1610B]">25108090</span>
+              <span id="student-regno" className="font-mono font-bold text-[#C1610B]">25108073</span>
             </div>
           </div>
 

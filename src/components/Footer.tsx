@@ -23,7 +23,7 @@ export function Footer() {
           <div id="footer-student-credits" className="flex flex-wrap items-center justify-center gap-3 px-4 py-2 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-700">
             <span className="flex items-center gap-1 font-medium">
               <User className="w-3.5 h-3.5 text-[#2C5F2D]" />
-              <strong>Ranjith</strong>
+              <strong>Nagesh</strong>
             </span>
             <span className="text-slate-300">•</span>
             <span className="flex items-center gap-1 font-medium">
@@ -33,7 +33,7 @@ export function Footer() {
             <span className="text-slate-300">•</span>
             <span className="flex items-center gap-1 font-medium text-[#C1610B]">
               <Hash className="w-3.5 h-3.5" />
-              25108090
+              25108073
             </span>
           </div>
         </div>
